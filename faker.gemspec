@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "faker"
 
   s.add_dependency('i18n', '~> 0.5')
-  s.add_dependency "activesupport", "~> 3.0.11"
+  s.add_dependency "activesupport"
   s.add_dependency "nokogiri"  
   
   s.files         = `git ls-files -- lib/*`.split("\n") + %w(History.txt License.txt README.md)
